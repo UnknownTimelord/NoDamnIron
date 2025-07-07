@@ -1,0 +1,50 @@
+/give Player71 nodamniron:copper_shovel
+/give Player71 nodamniron:copper_sword
+/gamemode survival
+/summon zombie
+/gamemode creative
+/gamemode survival
+/give Player839 nodamniron:copper_boots
+/give Player839 nodamniron:copper_leggings
+/give Player839 nodamniron:copper_chestplate
+/give Player839 nodamniron:copper_helmet
+/time set day
+/gamerule doDaylightCycle fals
+/gamerule doDaylightCycle false
+/tp Player300 ~ ~20 ~
+/give Player300 minecraft:enchanted_golden_apple 64l
+/give Player300 minecraft:enchanted_golden_apple 64
+/time set night
+/summon zombie 100\
+/summon zombie
+/enchant Player300 minecraft:sharpness 5
+/enchant Player300 minecraft:sharpness 4
+/enchant Player300 minecraft:sharpness 5
+/time set day
+/enchant Player441 minecraft:sharpness 5
+/gamemode creative
+/xp add Player441 150L
+/xp add Player441 150 levels
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/enchant Player617 minecraft:efficiency 5
+/enchant Player617 minecraft:efficiency 4
+/gamemode creative
+/gamemode survival
+/enchant Player833 minecraft:efficiency 5
+/enchant Player833 minecraft:efficiency 5t
+/enchant Player833 minecraft:efficiency 5
+/enchant Player833 minecraft:efficiency 5t
+/enchant Player833 minecraft:efficiency 5tt
+/enchant Player833 minecraft:efficiency 5ttt
+/enchant Player833 minecraft:efficiency 5tttt
+/enchant Player833 minecraft:efficiency 5ttttt
+/enchant Player833 minecraft:efficiency
+/enchant Player833 minecraft:efficiency 4
+/enchant Player833 minecraft:efficiency 3
+/enchant Player757 minecraft:efficiency 5
+/enchant Player794 minecraft:efficiency 5
+/enchant Player794 minecraft:protection 5
+/enchant Player794 minecraft:protection 4
+/enchant Player609 minecraft:protection 4

@@ -1,0 +1,12 @@
+// 1.21.7	-999999999-01-01T00:00:00	NoDamnIron/Tags for minecraft:item
+243698752317ecb37378041cdb967168ef081a4d data/minecraft/tags/item/axes.json
+9260fce62e49421460925f559ee5894bd47d206c data/minecraft/tags/item/chest_armor.json
+8870d11555014c2455a22374e461cf0ca4b10113 data/minecraft/tags/item/foot_armor.json
+09949a4e3d4cb831652ae09d65929e362e523622 data/minecraft/tags/item/head_armor.json
+49f895a11ebe572d07e688aaf52e4161dc08540d data/minecraft/tags/item/hoes.json
+e6b4e31219d8e4a528605965fc2fcd49effe32ad data/minecraft/tags/item/leg_armor.json
+7b9df81309d0109c24e4a27f5c8904c443ebf324 data/minecraft/tags/item/pickaxes.json
+d7e774291e3c36dad6f86dd05e2ce485870ed85f data/minecraft/tags/item/shovels.json
+69ded4ea9d469e7f25e1b96012b6c26e5a6091ec data/minecraft/tags/item/swords.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/nodamniron/tags/item/copper_tool_material.json
+6222fd0d7d2ce08ee1f70be68a61f4e167dda650 data/nodamniron/tags/item/repairs_copper_armor.json
