@@ -1,4 +1,4 @@
-The mod for when you have no damn iron.
+The mod for when you have no damn iron, but plenty of copper.
 
 Features:
 * Copper Toolset
