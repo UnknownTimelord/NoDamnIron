@@ -63,6 +63,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("S")
                         .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
                         .offerTo(recipeExporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.COPPER_HELM)
+                        .input('C', Items.COPPER_INGOT)
+                        .pattern("CCC")
+                        .pattern("C C")
+                        .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(recipeExporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.COPPER_CHEST)
+                        .input('C', Items.COPPER_INGOT)
+                        .pattern("C C")
+                        .pattern("CCC")
+                        .pattern("CCC")
+                        .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(recipeExporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.COPPER_LEGS)
+                        .input('C', Items.COPPER_INGOT)
+                        .pattern("CCC")
+                        .pattern("C C")
+                        .pattern("C C")
+                        .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(recipeExporter);
+                ShapedRecipeJsonBuilder.create(Registries.ITEM, RecipeCategory.TOOLS, ModItems.COPPER_BOOTS)
+                        .input('C', Items.COPPER_INGOT)
+                        .pattern("C C")
+                        .pattern("C C")
+                        .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(recipeExporter);
             }
         };
     }

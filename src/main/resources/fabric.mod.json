@@ -3,15 +3,15 @@
 	"id": "nodamniron",
 	"version": "${version}",
 	"name": "NoDamnIron",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The mod for when you have no damn iron, but plenty of copper.",
 	"authors": [
-		"Me!"
+		"Tenth"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/UnknownTimelord/NoDamnIron",
+		"sources": "https://github.com/UnknownTimelord/NoDamnIron"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/nodamniron/icon.png",
 	"environment": "*",
 	"entrypoints": {

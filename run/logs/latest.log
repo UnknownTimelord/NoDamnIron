@@ -1,5 +1,5 @@
-[04:39:22] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.7 with Fabric Loader 0.16.14
-[04:39:22] [main/INFO] (FabricLoader) Loading 49 mods:
+[06:28:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.7 with Fabric Loader 0.16.14
+[06:28:04] [main/INFO] (FabricLoader) Loading 49 mods:
 	- fabric-api 0.128.2+1.21.7
 	- fabric-api-base 0.4.64+9ec45cd86c
 	- fabric-api-lookup-api-v1 1.6.100+946bf4c36c
@@ -48,118 +48,86 @@
 	- java 24
 	- minecraft 1.21.7
 	- mixinextras 0.4.1
-	- nodamniron 1.0.0
-[04:39:22] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/tenth/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[04:39:22] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[04:39:22] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[04:39:22] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04:39:23] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 153 milliseconds
-[04:39:25] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:39:25] [Render thread/INFO] (Minecraft) Setting user: Player697
-[04:39:25] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[04:39:25] [Render thread/INFO] (nodamniron) Registering ModItems for nodamniron
-[04:39:25] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[04:39:25] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[04:39:25] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
-[04:39:26] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, nodamniron
-[04:39:26] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
-[04:39:26] [Worker-Main-3/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
-[04:39:26] [Worker-Main-8/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
-[04:39:26] [Render thread/INFO] (Minecraft) OpenAL initialized on device Blue Microphones Analog Stereo
-[04:39:26] [Render thread/INFO] (Minecraft) Sound engine started
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[04:39:26] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[04:39:30] [Render thread/INFO] (Minecraft) Loaded 1412 recipes
-[04:39:30] [Render thread/INFO] (Minecraft) Loaded 1525 advancements
-[04:39:30] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 642.6 μs
-[04:39:30] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.7
-[04:39:30] [Server thread/INFO] (Minecraft) Generating keypair
-[04:39:30] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[04:39:30] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[04:39:30] [Render thread/INFO] (Minecraft) Time elapsed: 528 ms
-[04:39:30] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	- nodamniron 0.0.2-1.21.7
+[06:28:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/tenth/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/22f9eb729e216a091673a574a5906dc1b9027fb3/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[06:28:04] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[06:28:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[06:28:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[06:28:05] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 181 milliseconds
+[06:28:07] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:28:07] [Render thread/INFO] (Minecraft) Setting user: Player594
+[06:28:07] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[06:28:07] [Render thread/INFO] (nodamniron) Registering ModItems for nodamniron
+[06:28:07] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[06:28:07] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[06:28:07] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[06:28:07] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, nodamniron
+[06:28:07] [Worker-Main-10/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[06:28:07] [Worker-Main-14/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[06:28:07] [Worker-Main-6/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[06:28:08] [Render thread/INFO] (Minecraft) OpenAL initialized on device Blue Microphones Analog Stereo
+[06:28:08] [Render thread/INFO] (Minecraft) Sound engine started
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06:28:08] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[06:28:11] [Render thread/INFO] (Minecraft) Loaded 1416 recipes
+[06:28:11] [Render thread/INFO] (Minecraft) Loaded 1529 advancements
+[06:28:16] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 549.7 μs
+[06:28:16] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.7
+[06:28:16] [Server thread/INFO] (Minecraft) Generating keypair
+[06:28:18] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[06:28:18] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[06:28:18] [Render thread/INFO] (Minecraft) Preparing spawn area: 12%
+[06:28:19] [Render thread/INFO] (Minecraft) Preparing spawn area: 51%
+[06:28:19] [Server thread/WARN] (TranslationConventionLogWarnings) 
 	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
 	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
 	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
 	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
 	Default is `SHORT`.
 
-[04:39:31] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[04:39:31] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[04:39:31] [Server thread/INFO] (Minecraft) Player697[local:E:d2b1e1f1] logged in with entity id 71 at (4.169646933200528, 111.0, 60.556038635876526)
-[04:39:31] [Server thread/INFO] (Minecraft) Player697 joined the game
-[04:39:31] [Server thread/INFO] (Minecraft) Player697 has made the advancement [Stone Age]
-[04:39:31] [Render thread/INFO] (Minecraft) [System] [CHAT] Player697 has made the advancement [Stone Age]
-[04:39:31] [Render thread/INFO] (Minecraft) Loaded 47 advancements
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
-[04:39:31] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
-[04:39:32] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
-[04:39:32] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 1024 reached during a single frame. New capacity will be 2048.
-[04:39:33] [Server thread/INFO] (Minecraft) [Player697: Set own game mode to Creative Mode]
-[04:39:33] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[04:39:34] [Server thread/INFO] (Minecraft) [Player697: Removed 320 item(s) from player Player697]
-[04:39:34] [Render thread/INFO] (Minecraft) [System] [CHAT] Removed 320 item(s) from player Player697
-[04:39:49] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Axe] to Player697]
-[04:39:49] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Axe] to Player697
-[04:39:52] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Boots] to Player697]
-[04:39:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Boots] to Player697
-[04:39:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Unknown item 'nodamniron:copper_'
-[04:39:57] [Render thread/INFO] (Minecraft) [System] [CHAT] ...Player697 nodamniron:copper_<--[HERE]
-[04:39:59] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Chestplate] to Player697]
-[04:39:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Chestplate] to Player697
-[04:40:03] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Helmet] to Player697]
-[04:40:03] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Helmet] to Player697
-[04:40:11] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Hoe] to Player697]
-[04:40:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Hoe] to Player697
-[04:40:14] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Leggings] to Player697]
-[04:40:14] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Leggings] to Player697
-[04:40:18] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Pickaxe] to Player697]
-[04:40:18] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Pickaxe] to Player697
-[04:40:22] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Shovel] to Player697]
-[04:40:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Shovel] to Player697
-[04:40:27] [Server thread/INFO] (Minecraft) [Player697: Gave 1 [Copper Sword] to Player697]
-[04:40:27] [Render thread/INFO] (Minecraft) [System] [CHAT] Gave 1 [Copper Sword] to Player697
-[04:40:38] [Render thread/INFO] (Minecraft) Loaded 48 advancements
-[04:40:46] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2048 reached during a single frame. New capacity will be 4096.
-[04:40:53] [Render thread/INFO] (Minecraft) Loaded 62 advancements
-[04:41:41] [Render thread/INFO] (Minecraft) Loaded 63 advancements
-[04:43:20] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[04:43:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[04:43:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[04:43:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[04:44:29] [Render thread/INFO] (Minecraft) [System] [CHAT] Saved screenshot as 2025-07-08_04.44.29.png
-[04:48:20] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[04:48:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[04:48:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[04:48:20] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[04:48:21] [Server thread/INFO] (Minecraft) Player697 lost connection: Disconnected
-[04:48:21] [Server thread/INFO] (Minecraft) Player697 left the game
-[04:48:21] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[04:48:21] [Server thread/INFO] (Minecraft) Stopping server
-[04:48:21] [Server thread/INFO] (Minecraft) Saving players
-[04:48:21] [Server thread/INFO] (Minecraft) Saving worlds
-[04:48:21] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
-[04:48:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
-[04:48:22] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
-[04:48:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
-[04:48:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04:48:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04:48:22] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[04:48:22] [Render thread/INFO] (Minecraft) Stopping!
+[06:28:19] [Render thread/INFO] (Minecraft) Time elapsed: 1271 ms
+[06:28:19] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[06:28:19] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[06:28:19] [Server thread/INFO] (Minecraft) Player594[local:E:0fa79ed5] logged in with entity id 13 at (111.5, 77.0, 298.5)
+[06:28:19] [Server thread/INFO] (Minecraft) Player594 joined the game
+[06:28:19] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[06:28:19] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[06:28:19] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[06:28:19] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[06:28:20] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[06:28:20] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[06:28:20] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[06:28:21] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[06:28:22] [Render thread/INFO] (Minecraft) Loaded 16 advancements
+[06:28:22] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[06:28:25] [Render thread/INFO] (Minecraft) Resizing Dynamic Transforms UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[06:28:27] [Render thread/INFO] (Minecraft) Loaded 19 advancements
+[06:28:57] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[06:28:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[06:28:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[06:28:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[06:28:58] [Server thread/INFO] (Minecraft) Player594 lost connection: Disconnected
+[06:28:58] [Server thread/INFO] (Minecraft) Player594 left the game
+[06:28:58] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[06:28:58] [Server thread/INFO] (Minecraft) Stopping server
+[06:28:58] [Server thread/INFO] (Minecraft) Saving players
+[06:28:58] [Server thread/INFO] (Minecraft) Saving worlds
+[06:28:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[06:28:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[06:28:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[06:28:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test): All chunks are saved
+[06:28:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:28:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:28:58] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[06:28:59] [Render thread/INFO] (Minecraft) Stopping!
