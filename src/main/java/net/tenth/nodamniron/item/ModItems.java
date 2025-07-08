@@ -12,7 +12,6 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.tenth.nodamniron.NoDamnIron;
 import net.tenth.nodamniron.datagen.ModBlockTagProvider;
-import net.tenth.nodamniron.ModEquipmentAssetKeys;
 import net.tenth.nodamniron.datagen.ModItemTagProvider;
 
 import java.util.Map;

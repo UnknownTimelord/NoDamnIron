@@ -1,16 +1,3 @@
-/give Player71 nodamniron:copper_shovel
-/give Player71 nodamniron:copper_sword
-/gamemode survival
-/summon zombie
-/gamemode creative
-/gamemode survival
-/give Player839 nodamniron:copper_boots
-/give Player839 nodamniron:copper_leggings
-/give Player839 nodamniron:copper_chestplate
-/give Player839 nodamniron:copper_helmet
-/time set day
-/gamerule doDaylightCycle fals
-/gamerule doDaylightCycle false
 /tp Player300 ~ ~20 ~
 /give Player300 minecraft:enchanted_golden_apple 64l
 /give Player300 minecraft:enchanted_golden_apple 64
@@ -48,3 +35,16 @@
 /enchant Player794 minecraft:protection 5
 /enchant Player794 minecraft:protection 4
 /enchant Player609 minecraft:protection 4
+/enchant Player738 minecraft:sharpness 5
+/gamemode creative
+/clear
+/give Player697 nodamniron:copper_axe
+/give Player697 nodamniron:copper_boots
+/give Player697 nodamniron:copper_
+/give Player697 nodamniron:copper_chestplate
+/give Player697 nodamniron:copper_helmet
+/give Player697 nodamniron:copper_hoe
+/give Player697 nodamniron:copper_leggings
+/give Player697 nodamniron:copper_pickaxe
+/give Player697 nodamniron:copper_shovel
+/give Player697 nodamniron:copper_sword

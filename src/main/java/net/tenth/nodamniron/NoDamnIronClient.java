@@ -7,5 +7,6 @@ public class NoDamnIronClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         ModItems.register();
+
     }
 }
