@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 import net.tenth.nodamniron.NoDamnIron;
 import net.tenth.nodamniron.datagen.ModBlockTagProvider;
 import net.tenth.nodamniron.datagen.ModItemTagProvider;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.Map;
 import java.util.function.Function;
@@ -34,6 +35,24 @@ public class ModItems {
 
     public static void register() {
         NoDamnIron.LOGGER.info("Registering ModItems for {}", NoDamnIron.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(
+                fabricItemGroupEntries -> {
+                    fabricItemGroupEntries.add(ModItems.COPPER_PICKAXE);
+                    fabricItemGroupEntries.add(ModItems.COPPER_SHOVEL);
+                    fabricItemGroupEntries.add(ModItems.COPPER_SWORD);
+                    fabricItemGroupEntries.add(ModItems.COPPER_AXE);
+                    fabricItemGroupEntries.add(ModItems.COPPER_HOE);
+                }
+        );
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(
+                fabricItemGroupEntries -> {
+                    fabricItemGroupEntries.add(ModItems.COPPER_HELM);
+                    fabricItemGroupEntries.add(ModItems.COPPER_CHEST);
+                    fabricItemGroupEntries.add(ModItems.COPPER_LEGS);
+                    fabricItemGroupEntries.add(ModItems.COPPER_BOOTS);
+                }
+        );
     }
 
     public static final ToolMaterial COPPER_TOOL = new ToolMaterial(ModBlockTagProvider.COPPER_INCORRECT, 191, 5.0F, 1.0F, 15, ModItemTagProvider.COPPER_MATERIAL);
